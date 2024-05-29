@@ -1,5 +1,5 @@
-/* eslint-disable no-unused-vars */
 import { uploadPhoto, createUser } from './utils.js';
+
 async function asyncUploadUser() {
   try {
     const [photoResponse, userResponse] = await Promise.all([uploadPhoto(), createUser()]);
@@ -14,3 +14,6 @@ async function asyncUploadUser() {
     };
   }
 }
+
+
+export default asyncUploadUser;
