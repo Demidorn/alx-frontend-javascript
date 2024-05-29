@@ -1,4 +1,3 @@
-/* eslint-disable jest/require-hook */
 function signUpUser(firstName, lastName) {
   return Promise.resolve({ firstName, lastName });
 }
@@ -26,6 +25,4 @@ function handleProfileSignup(firstName, lastName, fileName) {
   });
 }
 
-handleProfileSignup();
-
-console.log(handleProfileSignup('Bob', 'Dylan', 'bob_dylan.jpg'));
+export default handleProfileSignup;
