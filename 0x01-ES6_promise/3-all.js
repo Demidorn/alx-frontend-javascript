@@ -1,4 +1,3 @@
-/* eslint-disable no-unused-vars */
 function uploadPhoto() {
   return Promise.resolve({
     status: 200,
@@ -20,3 +19,5 @@ function handleProfileSignup() {
   })
     .catch((error) => console.error('Signup system offline'));
 }
+
+export default handleProfileSignup;
