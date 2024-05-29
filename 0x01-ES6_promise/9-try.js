@@ -1,4 +1,3 @@
-/* eslint-disable no-unused-vars */
 function guardrail(mathFunction) {
   const queue = [];
   try {
@@ -11,3 +10,5 @@ function guardrail(mathFunction) {
   }
   return queue;
 }
+
+export default guardrail;
