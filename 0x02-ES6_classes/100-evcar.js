@@ -2,7 +2,7 @@ import Car from './10-car.js';
 
 class EVCar extends Car {
     constructor(brand, motor, color, range) {
-        super(brand, model, color);
+        super(brand, motor, color);
         this._range = range;
     }
 
@@ -14,7 +14,7 @@ class EVCar extends Car {
     }
 
     cloneCar() {
-        return new Car(this._brand, this._model, this._color);
+        return new Car(this._brand, this._motor, this._color);
     }
 }
 
