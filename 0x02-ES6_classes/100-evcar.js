@@ -1,7 +1,7 @@
 import Car from './10-car.js';
 
 class EVCar extends Car {
-    constructor(brand, model, color, range) {
+    constructor(brand, motor, color, range) {
         super(brand, model, color);
         this._range = range;
     }
