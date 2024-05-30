@@ -22,6 +22,5 @@
     }
     ```
     Can check for your NodeJs version using ``` nodejs -v``` or  ``` node -v``` & node package manager using ``` npm -v``` 
-- Install Jest, Babel, and ESLint
+- Install Jest, Babel, and ESLint<br>
     in your project directory, install Jest, Babel and ESList by using the supplied package.json and ```run npm install```
-    
