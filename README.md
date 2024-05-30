@@ -6,6 +6,7 @@
 
 - [0x01-ES6_promise](https://github.com/Demidorn/alx-frontend-javascript/tree/main/0x01-ES6_promise)
 
+- [0x02-ES6_classes](https://github.com/Demidorn/alx-frontend-javascript/tree/main/0x02-ES6_classes)
 
 <!-- headings -->
 <a id="Es6 Basic"></a>
