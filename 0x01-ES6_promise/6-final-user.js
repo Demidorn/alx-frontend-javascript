@@ -1,27 +1,24 @@
-function signUpUser(firstName, lastName) {
-  return Promise.resolve({ firstName, lastName });
-}
-
-function uploadPhoto(fileName) {
-  return new Promise((resolve, reject) => {
-    setTimeout(() => {
-      reject(new Error(`Error: ${fileName} cannot be uploaded`));
-    }, 1000);
-  });
-}
+import signUpUser from './4-user-promise';
+import uploadPhoto from './5-photo-reject';
 
 function handleProfileSignup(firstName, lastName, fileName) {
-  const result = [signUpUser(firstName, lastName), uploadPhoto(fileName)];
-  Promise.allSettled(result).then((value) => {
-    const newresult = [];
-    for (const res of value) {
-      if (res.status === 'fulfilled') {
-        newresult.push({ status: res.status, value: res.value });
-      } else if (res.status === 'rejected') {
-        newresult.push({ status: res.status, value: res.reason });
+  return Promise.allSettled([
+    signUpUser(firstName, lastName),
+    uploadPhoto(fileName),
+  ]).then((results) => {
+    return results.map((result) => {
+      if (result.status === 'fulfilled') {
+        return {
+          status: 'fulfilled',
+          value: result.value,
+        };
+      } else {
+        return {
+          status: 'rejected',
+          value: result.reason,
+        };
       }
-    }
-    return newresult;
+    });
   });
 }
 
