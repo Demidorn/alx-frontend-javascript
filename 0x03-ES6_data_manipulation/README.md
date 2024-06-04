@@ -8,14 +8,14 @@
 - [WeakMap](https://intranet.alxswe.com/rltoken/NEy8fk2QRytajR8hgXkCog)
 
 ## Requirements
-> - All your files will be executed on Ubuntu 18.04 LTS<br>using NodeJS 12.11.x
+> - All your files will be executed on Ubuntu 18.04 LTSusing NodeJS 12.11.x
 > - Allowed editors: __vi__, __vim__, __emacs__, __Visual Studio Code__.
 > - All your files should end with a new line.
-> - A **README.md** file, at the root of the folder of the<br> project, is mandatory.
+> - A **README.md** file, at the root of the folder of the project, is mandatory.
 > - Your code should use the _js_ extension.
-> - Your code will be tested using Jest and the command <br>**npm run test**.
+> - Your code will be tested using Jest and the command **npm run test**.
 > - Your code will be verified against lint using _ESLint_.
-> - Your code needs to pass all the tests and lint. You can<br> verify the entire project running **npm run full-test**
+> - Your code needs to pass all the tests and lint. You can verify the entire project running **npm run full-test**
 > - All of your functions must be exported.
 
 | NO | TASKS | DESCRIPTION |
