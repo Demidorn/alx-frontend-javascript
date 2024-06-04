@@ -1,35 +1,37 @@
 class Car {
-    constructor(brand, motor, color) {
-        this._brand = brand;
-        this._motor = motor;
-        this._year = color;
-    }
+  constructor(brand, motor, color) {
+    this._brand = brand;
+    this._motor = motor;
+    this._year = color;
+  }
 
-    get brand() {
-        return this._brand;
-    }
-    set brand(value) {
-        this._brand = value;
-    }
+  get brand() {
+    return this._brand;
+  }
 
-    get motor() {
-        return this._motor;
-    }
-    set motor(value) {
-        this._motor = value;
-    }
+  set brand(value) {
+    this._brand = value;
+  }
 
-    get color() {
-        return this._color;
-    }
-    set color(value) {
-        this._color = value;
-    }
+  get motor() {
+    return this._motor;
+  }
 
-    cloneCar() {
-        return new this.constructor();
-    }
-   
+  set motor(value) {
+    this._motor = value;
+  }
+
+  get color() {
+    return this._color;
+  }
+
+  set color(value) {
+    this._color = value;
+  }
+
+  cloneCar() {
+    return new this.constructor();
+  }
 }
 
 export default Car;
