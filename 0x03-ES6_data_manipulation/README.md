@@ -7,7 +7,7 @@
 - [Map Data Structure](https://intranet.alxswe.com/rltoken/XR-ql9v9-PWcXnvTc749gw)
 - [WeakMap](https://intranet.alxswe.com/rltoken/NEy8fk2QRytajR8hgXkCog)
 
-## ## Requirements
+## Requirements
 > - All your files will be executed on Ubuntu 18.04 LTS<br>using NodeJS 12.11.x
 > - Allowed editors: __vi__, __vim__, __emacs__, __Visual Studio Code__.
 > - All your files should end with a new line.
@@ -30,6 +30,6 @@
     sudo apt install nodejs -y 
 ```
 2. **Install Jest, Babel, and ESLint**
-in your project directory, install Jest, <br>Babel and ESList by using the supplied package.json and run npm install.
+in your project directory, install Jest, Babel and ESList by using the supplied package.json and run npm install.
 
 *NOTE:* Don’t forget to run $ npm install when you have the package.json
