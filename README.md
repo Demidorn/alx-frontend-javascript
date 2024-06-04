@@ -8,5 +8,7 @@
 
 - [0x02-ES6_classes](https://github.com/Demidorn/alx-frontend-javascript/tree/main/0x02-ES6_classes)
 
+- [0x03-ES6_data_manipulation](https://github.com/Demidorn/alx-frontend-javascript/tree/main/0x03-ES6_data_manipulation)
+
 <!-- headings -->
 <a id="Es6 Basic"></a>
