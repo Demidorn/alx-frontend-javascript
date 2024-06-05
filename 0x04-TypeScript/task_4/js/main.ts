@@ -2,6 +2,7 @@ import { cpp } from './subjects/Cpp';
 import { react } from './subjects/React';
 import { java  } from './subjects/Java';
 
+
 namespace Subjects {
     export interface Teacher {
         firstName: string;

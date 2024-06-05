@@ -1,3 +1,7 @@
+// import Teacher from './Teacher';
+import Subject from './Subject';
+
+
 namespace subjects {
     export interface Teacher {
         experienceTeachingReact?: number;
