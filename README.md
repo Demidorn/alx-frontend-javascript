@@ -10,5 +10,7 @@
 
 - [0x03-ES6_data_manipulation](https://github.com/Demidorn/alx-frontend-javascript/tree/main/0x03-ES6_data_manipulation)
 
+- [0x04-TypeScript](https://github.com/Demidorn/alx-frontend-javascript/tree/main/0x04-TypeScript)
+
 <!-- headings -->
 <a id="Es6 Basic"></a>
