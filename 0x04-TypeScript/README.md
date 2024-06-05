@@ -13,7 +13,7 @@
 > - Your code should use the *ts* extension when possible
 > - The Typescript compiler should not show any warning or error when compiling your code
 
-## Please use these files for configuration
+## Use these files for configuration
 **package.json**
 ```
 {
