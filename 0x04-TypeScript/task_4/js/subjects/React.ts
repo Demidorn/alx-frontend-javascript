@@ -17,3 +17,5 @@ namespace subjects {
         }
     }
 }
+
+export const react = new subjects.React();
